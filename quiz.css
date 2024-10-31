@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btns {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 2%;
+  border-radius: 4%;
+  border: 2px solid;
+  background-color: #FFFFFF;
+  color: #121212;
+}
+
+.divs {
+  height: 100%;
+  width: 60%;
+  margin-inline-start: 18%;
+  margin-top: 6px;
+}
+
+#quiz-container {
+  background-color: #121212;
+}
+
+#question {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700px;
+  margin-top: 6px;
+}
