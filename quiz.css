@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 
-.btns , #back-to-home{
+.btns { 
   height: 100%;
   width: 100%;
   font-size: 18px;
@@ -25,13 +25,13 @@ body {
   cursor: pointer;
 }
 
-a{
+/* a{
   text-decoration: none;
   font-size: 18px;
   font-family: sans-serif;
   padding: 2%;
   color: #333333;
-}
+} */
 
 #next-question {
   background-color: #FF6B6B;
