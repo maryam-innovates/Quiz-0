@@ -1,37 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Quiz</title>
-  <link href="quiz.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=rx6rZTa05YPn&format=png&color=000000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=rx6rZTa05YPn&format=png&color=000000">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <!-- Navigation if needed -->
-    </nav>
-  </header>
-  <main>
-    <div id="quiz-container">
-      <div id="question" class="divs">Question text will appear here</div>
-      <div class="divs"><button id="option1" class="btns">Option1</button></div>
-      <div class="divs"><button id="option2" class="btns">Option2</button></div>
-      <div class="divs"><button id="option3" class="btns">Option3</button></div>
-      <div class="divs"><button id="option4" class="btns">Option4</button></div>
-      <div class="divs"><button id="next-question" class="btns">Next</button></div>
-      <div class="divs">
-        <h3>Score: 0</h3>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <!-- Footer if needed -->
-  </footer>
-  <script src="quiz.js"></script>
+    <header></header>
+    <main>
+        <div id=" cover-div">
+            <h4>
+                <bold>Welcome To<br>Quizer!</bold>
+            </h4>
+            <div id="front-end" class="divs"><a href="front-end.html">
+                    <button id="front-end-btn">Front-end</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <style>
+        body {
+            background-color: #F5F5F5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-family: sans-serif;
+        }
+
+        #front-end-btn {
+            height: 50%;
+            width: 80%;
+            font-size: 18px;
+            background-color: #3A7CA5;
+            color: #F5F5F5;
+        }
+
+        h4 {
+            color: #2F2F2F;
+            font-size: 35px;
+        }
+    </style>
+
 </body>
 
 </html>
