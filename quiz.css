@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
 }
 
 body {
@@ -20,8 +20,13 @@ body {
   padding: 2%;
   border-radius: 4%;
   border: 2px solid;
-  background-color: #FFFFFF;
-  color: #121212;
+  background-color: #D1FAE5;
+  color: #333333;
+  cursor: pointer;
+}
+
+#next-question {
+  background-color: #FF6B6B;
 }
 
 .divs {
@@ -32,13 +37,13 @@ body {
 }
 
 #quiz-container {
-  background-color: #121212;
+  background-color: #3A7CA5;
+  border-radius: 6%;
 }
 
 #question {
-  color: #FFFFFF;
-  font-size: 20px;
+  color: #333333;
+  font-size: 23px;
   font-family: sans-serif;
-  font-weight: 700px;
   margin-top: 6px;
 }
